@@ -1,17 +1,16 @@
-# Rock-paper-scissors-lizard-Spock template
+''' Rock-paper-scissors-lizard-Spock (RPSLS) is a variant of Rock-paper-scissors that allows five choices. Each choice wins against two other choices, loses against two other choices and ties against itself.
 
 
-# The key idea of this program is to equate the strings
-# "rock", "paper", "scissors", "lizard", "Spock" to numbers
-# as follows:
-#
-# 0 - rock
-# 1 - Spock
-# 2 - paper
-# 3 - lizard
-# 4 - scissors
+The key idea of this program is to equate the strings
+"rock", "paper", "scissors", "lizard", "Spock" to numbers
+as follows:
+0 - rock
+1 - Spock
+2 - paper
+3 - lizard
+4 - scissors
 
-# helper functions
+'''
 
 import math
 import random
@@ -58,12 +57,12 @@ def rpsls(player_choice):
     print "Player chooses", number_to_name (player_choice)
     print "Computer chooses", number_to_name(computer_num)
     if score == 0:
-        print "Player and Computer tie!"
+        print "Player and Computer tie!\n"
     elif (score == 1) or (score == 2) or (score == 3):
-        print "Player Wins!"
+        print "Player Wins!\n"
     else:
         (score == 4) or (score == 5)
-        print "Computer Wins!"
+        print "Computer Wins!\n"
     return ""
    
 
