@@ -14,20 +14,39 @@
 # helper functions
 
 def name_to_number(name):
-    # delete the following pass statement and fill in your code below
-    pass
-
     # convert name to number using if/elif/else
-    # don't forget to return the result!
-
+    
+    if name == "rock":
+        print 0
+    elif name == "Spock":
+        print 1
+    elif name == "paper":
+        print 2
+    elif name == "lizard":
+        print 3
+    elif name == "scissors":
+        print 4
+    else:
+        print "Please enter a valid option: rock, Spock,paper,lizard,scissors"
+    return name
 
 def number_to_name(number):
-    # delete the following pass statement and fill in your code below
-    pass
-    
     # convert number to a name using if/elif/else
-    # don't forget to return the result!
+    if number == 0:
+        print "rock"
+    elif number == 1:
+        print "Spock"
+    elif number == 2:
+        print "paper"
+    elif number == 3:
+        print "lizard"
+    elif number == 4:
+        print "scissors"
+    else:
+        print "Please enter a valid number between 0-4."
+    return number
     
+  
 
 def rpsls(player_choice): 
     # delete the following pass statement and fill in your code below
